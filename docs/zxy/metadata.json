@@ -1,0 +1,14 @@
+{
+"name": "tiles.mbtiles",
+"description": "tiles.mbtiles",
+"version": "2",
+"minzoom": "14",
+"maxzoom": "16",
+"center": "139.759827,35.735366,16",
+"bounds": "139.740601,35.599252,139.927368,35.750970",
+"type": "overlay",
+"format": "pbf",
+"generator": "tile-join v1.36.0",
+"generator_options": "tippecanoe -f -o tiles.mbtiles '--minimum-zoom=14' '--maximum-zoom=16'; tile-join --force --no-tile-compression '--output-to-directory=docs/zxy' --no-tile-size-limit tiles.mbtiles",
+"json": "{\"vector_layers\": [ { \"id\": \"dem10b\", \"description\": \"\", \"minzoom\": 14, \"maxzoom\": 16, \"fields\": {\"a\": \"Number\"} }, { \"id\": \"dem5a\", \"description\": \"\", \"minzoom\": 16, \"maxzoom\": 16, \"fields\": {\"a\": \"Number\"} } ],\"tilestats\": {\"layerCount\": 2,\"layers\": [{\"layer\": \"dem10b\",\"count\": 5558009,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"a\",\"count\": 7,\"type\": \"number\",\"values\": [0,10,15,20,25,30,5],\"min\": 0,\"max\": 30}]},{\"layer\": \"dem5a\",\"count\": 7372895,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"a\",\"count\": 14,\"type\": \"number\",\"values\": [-5,-9995,0,10,15,20,25,30,35,40,45,5,50,55],\"min\": -9995,\"max\": 55}]}]}}"
+}
