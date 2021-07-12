@@ -1,8 +1,8 @@
 {
   "version": 8,
   "center": [
-    139.073181,
-    35.068221
+    139.759827,
+    35.735366
   ],
   "zoom": 16,
   "sources": {
@@ -12,7 +12,7 @@
       "maxzoom": 16,
       "attribution": "国土地理院ベクトルタイル提供実験",
       "tiles": [
-        "https://optgeo.github.io/volumen-11-1818-806/zxy/{z}/{x}/{y}.pbf"
+        "https://optgeo.github.io/volumen-11-1819-806/zxy/{z}/{x}/{y}.pbf"
       ]
     },
     "i": {
